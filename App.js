@@ -18,7 +18,7 @@ export default function App() {
     setResposta('');
 
     try {
-      const res = await axios.post('http://192.168.0.188:3000/api/perguntar', {
+      const res = await axios.post('http://000.000.0.000:3000/api/perguntar', {
         contexto,
         pergunta
       });
